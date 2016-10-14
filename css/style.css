@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Taviraj:300,400,700');
 
+#main-content{
+    opacity: 0.0;
+    transform: translateY(100px);
+    transition: 1s all;
+
+}
+
+.intro{
+
+
+    opacity: 1.0 !important;
+    transform: translateY(0px) !important;
+}
+
 body{
     background-color: #1A237E;
     font-family: "Taviraj", sans-serif;
