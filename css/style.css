@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj:300,400,700');
+
+body{
+    background-color: #1A237E;
+    font-family: "Taviraj", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+h1{
+    font-size: 4em;
+    word-break: break-word;
+}
+
+h2{
+    font-size: 2.0em;
+    font-weight: 300;
+}
+
+.terence{
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.btn, .btn:hover, .btn:focus, .btn:active{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    background-color: #ff1744;
+    border: 0;
+    color: #fff;
+}
+
+ @media only screen and (max-width : 768px) {
+     h1{
+         font-size: 2.0em;
+     }
+
+     h2{
+         font-size: 1.0em;
+     }
+ }
