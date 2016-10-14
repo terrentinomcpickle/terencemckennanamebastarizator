@@ -10,7 +10,6 @@ $("#bastard").click(function(e){
     name += firstNameB[Math.floor(Math.random()*firstNameB.length)];
     name += " ";
     name += lastNameA[Math.floor(Math.random()*lastNameA.length)];
-    name += " ";
     name += lastNameB[Math.floor(Math.random()*lastNameB.length)];
     
     $("#name").fadeOut(250, function(e){
