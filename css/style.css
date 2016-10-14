@@ -17,6 +17,13 @@ h2{
     font-weight: 300;
 }
 
+h3{
+    font-size: 1.0em;
+    font-weight: 300;
+    margin-top: 40px;
+    color: rgba(255,255,255,0.25);
+}
+
 .terence{
     text-align: center;
     padding-top: 20vh;
@@ -40,5 +47,10 @@ h2{
 
      h2{
          font-size: 1.0em;
+         font-weight: 400;
      }
+
+     h3{
+    font-weight: 300;
+}
  }
