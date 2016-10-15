@@ -6,11 +6,11 @@ $("#bastard").click(function(e){
     var lastNameB = ["Shit", "Buttlicker", "Fuck", "DiMiTri", "Cunt", "Queef", "Bartard", "Face", "Antenna", "Testicle"];
 
     var name = "";
-    name += firstNameA[Math.floor(Math.random()*firstNameA.length)];
-    name += firstNameB[Math.floor(Math.random()*firstNameB.length)];
+    name += firstNameA[Math.floor(Math.random()*firstNameA.length)];Math.random();Math.random();Math.random();Math.random();
+    name += firstNameB[Math.floor(Math.random()*firstNameB.length)];Math.random();Math.random();Math.random();Math.random();
     name += " ";
-    name += lastNameA[Math.floor(Math.random()*lastNameA.length)];
-    name += lastNameB[Math.floor(Math.random()*lastNameB.length)];
+    name += lastNameA[Math.floor(Math.random()*lastNameA.length)];Math.random();Math.random();Math.random();
+    name += lastNameB[Math.floor(Math.random()*lastNameB.length)];Math.random();Math.random();Math.random();Math.random();Math.random();
     
     $("#name").fadeOut(250, function(e){
         $("#name").html(name);
